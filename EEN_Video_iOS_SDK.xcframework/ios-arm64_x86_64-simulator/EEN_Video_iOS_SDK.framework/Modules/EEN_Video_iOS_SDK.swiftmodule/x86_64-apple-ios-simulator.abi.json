@@ -1,0 +1,5397 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DewarpImageResult",
+        "printedName": "DewarpImageResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "esn",
+            "printedName": "esn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV3esnSSvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV3esnSSvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV3esnSSvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV3esnSSvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "compositeId",
+            "printedName": "compositeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV11compositeIdSSvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV11compositeIdSSvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV11compositeIdSSvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV11compositeIdSSvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV5imageSo7UIImageCSgvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV5imageSo7UIImageCSgvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV5imageSo7UIImageCSgvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV5imageSo7UIImageCSgvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17EEN_Video_iOS_SDK17DewarpImageResultV",
+        "mangledName": "$s17EEN_Video_iOS_SDK17DewarpImageResultV",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Dewarper",
+        "printedName": "Dewarper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dewarper",
+                "printedName": "EEN_Video_iOS_SDK.Dewarper",
+                "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Dewarper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Dewarper(im)init",
+            "mangledName": "$s17EEN_Video_iOS_SDK8DewarperCACycfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Dewarper",
+        "mangledName": "$s17EEN_Video_iOS_SDK8DewarperC",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DewarpControlViewDelegate",
+        "printedName": "DewarpControlViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dewarpLookAtDidChange",
+            "printedName": "dewarpLookAtDidChange(_:paneIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "EEN_Video_iOS_SDK.Point3D",
+                "usr": "s:17EEN_Video_iOS_SDK7Point3DV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK25DewarpControlViewDelegateP21dewarpLookAtDidChange_9paneIndexyAA7Point3DV_SitF",
+            "mangledName": "$s17EEN_Video_iOS_SDK25DewarpControlViewDelegateP21dewarpLookAtDidChange_9paneIndexyAA7Point3DV_SitF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EEN_Video_iOS_SDK.DewarpControlViewDelegate>",
+            "sugared_genericSig": "<Self where Self : EEN_Video_iOS_SDK.DewarpControlViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dewarpFieldOfViewDidChange",
+            "printedName": "dewarpFieldOfViewDidChange(_:paneIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK25DewarpControlViewDelegateP013dewarpFieldOfG9DidChange_9paneIndexySf_SitF",
+            "mangledName": "$s17EEN_Video_iOS_SDK25DewarpControlViewDelegateP013dewarpFieldOfG9DidChange_9paneIndexySf_SitF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EEN_Video_iOS_SDK.DewarpControlViewDelegate>",
+            "sugared_genericSig": "<Self where Self : EEN_Video_iOS_SDK.DewarpControlViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17EEN_Video_iOS_SDK25DewarpControlViewDelegateP",
+        "mangledName": "$s17EEN_Video_iOS_SDK25DewarpControlViewDelegateP",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DewarpControlView",
+        "printedName": "DewarpControlView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "EEN_Video_iOS_SDK.DewarpControlViewDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EEN_Video_iOS_SDK.DewarpControlViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DewarpControlViewDelegate",
+                        "printedName": "EEN_Video_iOS_SDK.DewarpControlViewDelegate",
+                        "usr": "s:17EEN_Video_iOS_SDK25DewarpControlViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EEN_Video_iOS_SDK.DewarpControlViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DewarpControlViewDelegate",
+                        "printedName": "EEN_Video_iOS_SDK.DewarpControlViewDelegate",
+                        "usr": "s:17EEN_Video_iOS_SDK25DewarpControlViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvs",
+                "mangledName": "$s17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvs",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvM",
+                "mangledName": "$s17EEN_Video_iOS_SDK17DewarpControlViewC8delegateAA0efG8Delegate_pSgvM",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DewarpControlView",
+                "printedName": "EEN_Video_iOS_SDK.DewarpControlView",
+                "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)DewarpControlView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)DewarpControlView(im)initWithFrame:",
+            "mangledName": "$s17EEN_Video_iOS_SDK17DewarpControlViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)DewarpControlView",
+        "mangledName": "$s17EEN_Video_iOS_SDK17DewarpControlViewC",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Point3D",
+        "printedName": "Point3D",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "EEN_Video_iOS_SDK.Point3D",
+                "usr": "s:17EEN_Video_iOS_SDK7Point3DV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17EEN_Video_iOS_SDK7Point3DV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17EEN_Video_iOS_SDK7Point3DV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK7Point3DV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17EEN_Video_iOS_SDK7Point3DV6encode2toys7Encoder_p_tKF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "EEN_Video_iOS_SDK.Point3D",
+                "usr": "s:17EEN_Video_iOS_SDK7Point3DV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "EEN_Video_iOS_SDK.Point3D",
+                "usr": "s:17EEN_Video_iOS_SDK7Point3DV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK7Point3DV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK7Point3DV2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17EEN_Video_iOS_SDK7Point3DV",
+        "mangledName": "$s17EEN_Video_iOS_SDK7Point3DV",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreamerManager",
+        "printedName": "StreamerManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StreamerManager",
+                "printedName": "EEN_Video_iOS_SDK.StreamerManager",
+                "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)StreamerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)init",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerCACycfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:dataTask:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)URLSession:dataTask:didReceiveData:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC10urlSession_8dataTask10didReceiveySo12NSURLSessionC_So0m4DataJ0C10Foundation0N0VtF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "URLSession:dataTask:didReceiveData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:task:didCompleteWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTask",
+                "printedName": "Foundation.URLSessionTask",
+                "usr": "c:objc(cs)NSURLSessionTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)URLSession:task:didCompleteWithError:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC10urlSession_4task20didCompleteWithErrorySo12NSURLSessionC_So0N4TaskCs0M0_pSgtF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "URLSession:task:didCompleteWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionReceivedSPS",
+            "printedName": "onSessionReceivedSPS(_:andPPS:esn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)onSessionReceivedSPS:andPPS:esn:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC20onSessionReceivedSPS_6andPPS3esny10Foundation4DataVSg_AJSStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "onSessionReceivedSPS:andPPS:esn:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionReceivedVideoData",
+            "printedName": "onSessionReceivedVideoData(_:dts:date:esn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)onSessionReceivedVideoData:dts:date:esn:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC017onSessionReceivedB4Data_3dts4date3esny10Foundation0J0VSg_SdAH4DateVSgSSSgtF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "onSessionReceivedVideoData:dts:date:esn:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionReceivedAudioData",
+            "printedName": "onSessionReceivedAudioData(_:dts:date:esn:audioCodec:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RTSPSessionAudioCodec",
+                "printedName": "EEN_Video_iOS_SDK.RTSPSessionAudioCodec",
+                "usr": "c:@EA@RTSPSessionAudioCodec"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)onSessionReceivedAudioData:dts:date:esn:audioCodec:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC26onSessionReceivedAudioData_3dts4date3esn10audioCodecy10Foundation0K0VSg_SdAI4DateVSgSSSgSo011RTSPSessionjP0atF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "onSessionReceivedAudioData:dts:date:esn:audioCodec:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionStateChanged",
+            "printedName": "onSessionStateChanged(_:esn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RTSPSessionState",
+                "printedName": "EEN_Video_iOS_SDK.RTSPSessionState",
+                "usr": "c:@EA@RTSPSessionState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)onSessionStateChanged:esn:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC21onSessionStateChanged_3esnySo011RTSPSessionI0a_SStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "onSessionStateChanged:esn:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSessionFailedWithError",
+            "printedName": "onSessionFailedWithError(_:esn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@EEN_Video_iOS_SDK@objc(cs)StreamerManager(im)onSessionFailedWithError:esn:",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC24onSessionFailedWithError_3esnySSSg_SStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "objc_name": "onSessionFailedWithError:esn:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)StreamerManager",
+        "mangledName": "$s17EEN_Video_iOS_SDK15StreamerManagerC",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreamOutput",
+        "printedName": "StreamOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "CMSampleBuffer",
+            "printedName": "CMSampleBuffer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamOutput.Type) -> EEN_Video_iOS_SDK.StreamOutput",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamOutput",
+                    "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamOutput.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamOutput",
+                        "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO14CMSampleBufferyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO14CMSampleBufferyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "CGImage",
+            "printedName": "CGImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamOutput.Type) -> EEN_Video_iOS_SDK.StreamOutput",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamOutput",
+                    "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamOutput.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamOutput",
+                        "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO7CGImageyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO7CGImageyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "CVPixelBuffer",
+            "printedName": "CVPixelBuffer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamOutput.Type) -> EEN_Video_iOS_SDK.StreamOutput",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamOutput",
+                    "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamOutput.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamOutput",
+                        "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO13CVPixelBufferyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO13CVPixelBufferyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamOutput",
+                "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamOutput",
+                "printedName": "EEN_Video_iOS_SDK.StreamOutput",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO9hashValueSivp",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO9hashValueSivp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO9hashValueSivg",
+                "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO9hashValueSivg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO4hash4intoys6HasherVz_tF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17EEN_Video_iOS_SDK12StreamOutputO",
+        "mangledName": "$s17EEN_Video_iOS_SDK12StreamOutputO",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreamUpdate",
+        "printedName": "StreamUpdate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamUpdate.Type) -> (Swift.Double) -> EEN_Video_iOS_SDK.StreamUpdate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> EEN_Video_iOS_SDK.StreamUpdate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(timestamp: Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO9timestampyACSd_tcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamUpdateO9timestampyACSd_tcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamUpdate.Type) -> (Swift.Double) -> EEN_Video_iOS_SDK.StreamUpdate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> EEN_Video_iOS_SDK.StreamUpdate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(duration: Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO8durationyACSd_tcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamUpdateO8durationyACSd_tcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "progress",
+            "printedName": "progress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamUpdate.Type) -> (Swift.Double) -> EEN_Video_iOS_SDK.StreamUpdate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> EEN_Video_iOS_SDK.StreamUpdate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(progress: Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO8progressyACSd_tcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamUpdateO8progressyACSd_tcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamUpdate.Type) -> (CoreFoundation.CGSize) -> EEN_Video_iOS_SDK.StreamUpdate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGSize) -> EEN_Video_iOS_SDK.StreamUpdate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(size: CoreFoundation.CGSize)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGSize",
+                            "printedName": "CoreFoundation.CGSize",
+                            "usr": "c:@S@CGSize"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamUpdate",
+                        "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO4sizeyACSo6CGSizeV_tcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamUpdateO4sizeyACSo6CGSizeV_tcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO",
+        "mangledName": "$s17EEN_Video_iOS_SDK12StreamUpdateO",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreamStatus",
+        "printedName": "StreamStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initial",
+            "printedName": "initial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamStatus",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO7initialyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO7initialyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "connecting",
+            "printedName": "connecting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamStatus",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO10connectingyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO10connectingyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamStatus",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO9connectedyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO9connectedyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "playing",
+            "printedName": "playing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamStatus",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO7playingyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO7playingyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "buffering",
+            "printedName": "buffering",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamStatus",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO9bufferingyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO9bufferingyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamStatus",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                    "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO6pausedyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO6pausedyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "disconnected",
+            "printedName": "disconnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamStatus.Type) -> (EEN_Video_iOS_SDK.StreamEndReason) -> EEN_Video_iOS_SDK.StreamStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EEN_Video_iOS_SDK.StreamEndReason) -> EEN_Video_iOS_SDK.StreamStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: EEN_Video_iOS_SDK.StreamEndReason)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StreamEndReason",
+                            "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                            "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamStatus",
+                        "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO12disconnectedyAcA0E9EndReasonO_tcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO12disconnectedyAcA0E9EndReasonO_tcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamStatus",
+                "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamStatus",
+                "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO",
+        "mangledName": "$s17EEN_Video_iOS_SDK12StreamStatusO",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerDelegate",
+        "printedName": "PlayerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "playerDelegate",
+            "printedName": "playerDelegate(_:onStatusUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Player",
+                "printedName": "EEN_Video_iOS_SDK.Player",
+                "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Player"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamStatus",
+                "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK14PlayerDelegateP06playerF0_14onStatusUpdate3foryAA0E0C_AA06StreamI0OSStF",
+            "mangledName": "$s17EEN_Video_iOS_SDK14PlayerDelegateP06playerF0_14onStatusUpdate3foryAA0E0C_AA06StreamI0OSStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EEN_Video_iOS_SDK.PlayerDelegate>",
+            "sugared_genericSig": "<Self where Self : EEN_Video_iOS_SDK.PlayerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playerDelegate",
+            "printedName": "playerDelegate(_:onStreamUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Player",
+                "printedName": "EEN_Video_iOS_SDK.Player",
+                "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Player"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamUpdate",
+                "printedName": "EEN_Video_iOS_SDK.StreamUpdate",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamUpdateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK14PlayerDelegateP06playerF0_14onStreamUpdate3foryAA0E0C_AA0iJ0OSStF",
+            "mangledName": "$s17EEN_Video_iOS_SDK14PlayerDelegateP06playerF0_14onStreamUpdate3foryAA0E0C_AA0iJ0OSStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EEN_Video_iOS_SDK.PlayerDelegate>",
+            "sugared_genericSig": "<Self where Self : EEN_Video_iOS_SDK.PlayerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17EEN_Video_iOS_SDK14PlayerDelegateP",
+        "mangledName": "$s17EEN_Video_iOS_SDK14PlayerDelegateP",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Player",
+        "printedName": "Player",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EEN_Video_iOS_SDK.PlayerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayerDelegate",
+                    "printedName": "EEN_Video_iOS_SDK.PlayerDelegate",
+                    "usr": "s:17EEN_Video_iOS_SDK14PlayerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EEN_Video_iOS_SDK.PlayerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerDelegate",
+                        "printedName": "EEN_Video_iOS_SDK.PlayerDelegate",
+                        "usr": "s:17EEN_Video_iOS_SDK14PlayerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EEN_Video_iOS_SDK.PlayerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayerDelegate",
+                        "printedName": "EEN_Video_iOS_SDK.PlayerDelegate",
+                        "usr": "s:17EEN_Video_iOS_SDK14PlayerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvs",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvs",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvM",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC8delegateAA0E8Delegate_pSgvM",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bufferLayer",
+            "printedName": "bufferLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVSampleBufferDisplayLayer",
+                "printedName": "AVFoundation.AVSampleBufferDisplayLayer",
+                "usr": "c:objc(cs)AVSampleBufferDisplayLayer"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC11bufferLayerSo021AVSampleBufferDisplayG0Cvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11bufferLayerSo021AVSampleBufferDisplayG0Cvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVSampleBufferDisplayLayer",
+                    "printedName": "AVFoundation.AVSampleBufferDisplayLayer",
+                    "usr": "c:objc(cs)AVSampleBufferDisplayLayer"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC11bufferLayerSo021AVSampleBufferDisplayG0Cvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11bufferLayerSo021AVSampleBufferDisplayG0Cvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audioMuted",
+            "printedName": "audioMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvs",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvs",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvM",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC10audioMutedSbvM",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audioVolume",
+            "printedName": "audioVolume",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvs",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvs",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvM",
+                "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11audioVolumeSfvM",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Player",
+                "printedName": "EEN_Video_iOS_SDK.Player",
+                "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Player"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Player(im)initWithFrame:",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC5frameACSo6CGRectV_tcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setDewarper",
+            "printedName": "setDewarper(config:compositeID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DewarperDeviceConfig",
+                "printedName": "EEN_Video_iOS_SDK.DewarperDeviceConfig",
+                "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC11setDewarper6config11compositeIDyAA0G12DeviceConfigV_SStF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11setDewarper6config11compositeIDyAA0G12DeviceConfigV_SStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSublayers",
+            "printedName": "layoutSublayers(of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CALayer",
+                "printedName": "QuartzCore.CALayer",
+                "usr": "c:objc(cs)CALayer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Player(im)layoutSublayersOfLayer:",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC15layoutSublayers2ofySo7CALayerC_tF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "overriding": true,
+            "objc_name": "layoutSublayersOfLayer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableDewarpControlView",
+            "printedName": "enableDewarpControlView(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC23enableDewarpControlView9isEnabledySb_tF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC23enableDewarpControlView9isEnabledySb_tF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStreamStatus",
+            "printedName": "getStreamStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StreamStatus",
+                "printedName": "EEN_Video_iOS_SDK.StreamStatus",
+                "usr": "s:17EEN_Video_iOS_SDK12StreamStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC15getStreamStatusAA0gH0OyF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC15getStreamStatusAA0gH0OyF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC4playyyF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC4playyyF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC5pauseyyF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC5pauseyyF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(item:accessToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerItem",
+                "printedName": "EEN_Video_iOS_SDK.PlayerItem",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC5start4item11accessTokenyAA0E4ItemV_SStF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC5start4item11accessTokenyAA0E4ItemV_SStF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanUp",
+            "printedName": "cleanUp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC7cleanUpyyF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC7cleanUpyyF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adjustLayer",
+            "printedName": "adjustLayer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC11adjustLayeryyF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC11adjustLayeryyF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSynchronizerTime",
+            "printedName": "getSynchronizerTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC19getSynchronizerTimeSdyF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC19getSynchronizerTimeSdyF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dewarperDidPresent",
+            "printedName": "dewarperDidPresent(timestamp:timebase:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTimebase",
+                "printedName": "CoreMedia.CMTimebase",
+                "usr": "c:@T@CMTimebaseRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC18dewarperDidPresent9timestamp8timebaseySo6CMTimea_So13CMTimebaseRefatF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC18dewarperDidPresent9timestamp8timebaseySo6CMTimea_So13CMTimebaseRefatF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dewarpLookAtDidChange",
+            "printedName": "dewarpLookAtDidChange(_:paneIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Point3D",
+                "printedName": "EEN_Video_iOS_SDK.Point3D",
+                "usr": "s:17EEN_Video_iOS_SDK7Point3DV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC21dewarpLookAtDidChange_9paneIndexyAA7Point3DV_SitF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC21dewarpLookAtDidChange_9paneIndexyAA7Point3DV_SitF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dewarpFieldOfViewDidChange",
+            "printedName": "dewarpFieldOfViewDidChange(_:paneIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK6PlayerC26dewarpFieldOfViewDidChange_9paneIndexySf_SitF",
+            "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC26dewarpFieldOfViewDidChange_9paneIndexySf_SitF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EEN_Video_iOS_SDK@objc(cs)Player",
+        "mangledName": "$s17EEN_Video_iOS_SDK6PlayerC",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DewarpControlViewDelegate",
+            "printedName": "DewarpControlViewDelegate",
+            "usr": "s:17EEN_Video_iOS_SDK25DewarpControlViewDelegateP",
+            "mangledName": "$s17EEN_Video_iOS_SDK25DewarpControlViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Composite",
+        "printedName": "Composite",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Composite",
+                "printedName": "EEN_Video_iOS_SDK.Composite",
+                "usr": "s:17EEN_Video_iOS_SDK9CompositeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17EEN_Video_iOS_SDK9CompositeV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17EEN_Video_iOS_SDK9CompositeV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK9CompositeV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17EEN_Video_iOS_SDK9CompositeV6encode2toys7Encoder_p_tKF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Composite",
+                "printedName": "EEN_Video_iOS_SDK.Composite",
+                "usr": "s:17EEN_Video_iOS_SDK9CompositeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Composite",
+                "printedName": "EEN_Video_iOS_SDK.Composite",
+                "usr": "s:17EEN_Video_iOS_SDK9CompositeV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK9CompositeV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK9CompositeV2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17EEN_Video_iOS_SDK9CompositeV",
+        "mangledName": "$s17EEN_Video_iOS_SDK9CompositeV",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VideoToolbox",
+        "printedName": "VideoToolbox",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DewarperDeviceConfig",
+        "printedName": "DewarperDeviceConfig",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DewarperDeviceConfig",
+                "printedName": "EEN_Video_iOS_SDK.DewarperDeviceConfig",
+                "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DewarperDeviceConfig",
+                "printedName": "EEN_Video_iOS_SDK.DewarperDeviceConfig",
+                "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK20DewarperDeviceConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EEN_Video_iOS_SDK.DewarperDeviceConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DewarperDeviceConfig",
+                    "printedName": "EEN_Video_iOS_SDK.DewarperDeviceConfig",
+                    "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV4fromACSgSDySSypG_tcfc",
+            "mangledName": "$s17EEN_Video_iOS_SDK20DewarperDeviceConfigV4fromACSgSDySSypG_tcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17EEN_Video_iOS_SDK20DewarperDeviceConfigV",
+        "mangledName": "$s17EEN_Video_iOS_SDK20DewarperDeviceConfigV",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreamError",
+        "printedName": "StreamError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "suppliedObjectIsInvalid",
+            "printedName": "suppliedObjectIsInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamError.Type) -> (Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO23suppliedObjectIsInvalidyACSSSgcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO23suppliedObjectIsInvalidyACSSSgcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "notAuthenticated",
+            "printedName": "notAuthenticated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamError.Type) -> (Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO16notAuthenticatedyACSSSgcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO16notAuthenticatedyACSSSgcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noPermission",
+            "printedName": "noPermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamError.Type) -> (Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO12noPermissionyACSSSgcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO12noPermissionyACSSSgcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "resourceNotFound",
+            "printedName": "resourceNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamError.Type) -> (Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO16resourceNotFoundyACSSSgcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO16resourceNotFoundyACSSSgcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "internalError",
+            "printedName": "internalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamError.Type) -> (Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> EEN_Video_iOS_SDK.StreamError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO08internalF0yACSSSgcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO08internalF0yACSSSgcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamError.Type) -> EEN_Video_iOS_SDK.StreamError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamError",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError",
+                    "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO07unknownF0yA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO07unknownF0yA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultMessage",
+            "printedName": "defaultMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO14defaultMessageSSvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO14defaultMessageSSvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO14defaultMessageSSvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO14defaultMessageSSvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO",
+        "mangledName": "$s17EEN_Video_iOS_SDK11StreamErrorO",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreamEndReason",
+        "printedName": "StreamEndReason",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamEndReason",
+                "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamEndReason",
+                "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamEndReasonO2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "closed",
+            "printedName": "closed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamEndReason.Type) -> EEN_Video_iOS_SDK.StreamEndReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamEndReason",
+                    "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                    "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamEndReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamEndReason",
+                        "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                        "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO6closedyA2CmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamEndReasonO6closedyA2CmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "streamError",
+            "printedName": "streamError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamEndReason.Type) -> (EEN_Video_iOS_SDK.StreamError) -> EEN_Video_iOS_SDK.StreamEndReason",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EEN_Video_iOS_SDK.StreamError) -> EEN_Video_iOS_SDK.StreamEndReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamEndReason",
+                        "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                        "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamError",
+                        "printedName": "EEN_Video_iOS_SDK.StreamError",
+                        "usr": "s:17EEN_Video_iOS_SDK11StreamErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamEndReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamEndReason",
+                        "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                        "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO11streamErroryAcA0eI0OcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamEndReasonO11streamErroryAcA0eI0OcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EEN_Video_iOS_SDK.StreamEndReason.Type) -> (Swift.Error) -> EEN_Video_iOS_SDK.StreamEndReason",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> EEN_Video_iOS_SDK.StreamEndReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamEndReason",
+                        "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                        "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EEN_Video_iOS_SDK.StreamEndReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamEndReason",
+                        "printedName": "EEN_Video_iOS_SDK.StreamEndReason",
+                        "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO5erroryACs5Error_pcACmF",
+            "mangledName": "$s17EEN_Video_iOS_SDK15StreamEndReasonO5erroryACs5Error_pcACmF",
+            "moduleName": "EEN_Video_iOS_SDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17EEN_Video_iOS_SDK15StreamEndReasonO",
+        "mangledName": "$s17EEN_Video_iOS_SDK15StreamEndReasonO",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DewarpPane",
+        "printedName": "DewarpPane",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DewarpPane",
+                "printedName": "EEN_Video_iOS_SDK.DewarpPane",
+                "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17EEN_Video_iOS_SDK10DewarpPaneV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17EEN_Video_iOS_SDK10DewarpPaneV6encode2toys7Encoder_p_tKF",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DewarpPane",
+                "printedName": "EEN_Video_iOS_SDK.DewarpPane",
+                "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DewarpPane",
+                "printedName": "EEN_Video_iOS_SDK.DewarpPane",
+                "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17EEN_Video_iOS_SDK10DewarpPaneV2eeoiySbAC_ACtFZ",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17EEN_Video_iOS_SDK10DewarpPaneV",
+        "mangledName": "$s17EEN_Video_iOS_SDK10DewarpPaneV",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "EEN_Video_iOS_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerItem",
+        "printedName": "PlayerItem",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "StreamingType",
+            "printedName": "StreamingType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "flv",
+                "printedName": "flv",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EEN_Video_iOS_SDK.PlayerItem.StreamingType.Type) -> EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamingType",
+                        "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                        "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StreamingType",
+                            "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                            "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO3flvyA2EmF",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO3flvyA2EmF",
+                "moduleName": "EEN_Video_iOS_SDK"
+              },
+              {
+                "kind": "Var",
+                "name": "rtsp",
+                "printedName": "rtsp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EEN_Video_iOS_SDK.PlayerItem.StreamingType.Type) -> EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreamingType",
+                        "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                        "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StreamingType",
+                            "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                            "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO4rtspyA2EmF",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO4rtspyA2EmF",
+                "moduleName": "EEN_Video_iOS_SDK"
+              },
+              {
+                "kind": "Function",
+                "name": "type",
+                "printedName": "type()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO4typeSSyF",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO4typeSSyF",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamingType",
+                    "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                    "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreamingType",
+                    "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                    "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO9hashValueSivp",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO9hashValueSivp",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO9hashValueSivg",
+                    "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO9hashValueSivg",
+                    "moduleName": "EEN_Video_iOS_SDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO",
+            "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLiveItem",
+            "printedName": "isLiveItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV06isLiveF0Sbvp",
+            "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV06isLiveF0Sbvp",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV06isLiveF0Sbvg",
+                "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV06isLiveF0Sbvg",
+                "moduleName": "EEN_Video_iOS_SDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:esn:startDate:endDate:streamingType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerItem",
+                "printedName": "EEN_Video_iOS_SDK.PlayerItem",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StreamingType",
+                "printedName": "EEN_Video_iOS_SDK.PlayerItem.StreamingType",
+                "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV13StreamingTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV3url3esn9startDate03endJ013streamingTypeAC10Foundation3URLV_SSAI0J0VAMSgAC09StreamingM0Otcfc",
+            "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV3url3esn9startDate03endJ013streamingTypeAC10Foundation3URLV_SSAI0J0VAMSgAC09StreamingM0Otcfc",
+            "moduleName": "EEN_Video_iOS_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17EEN_Video_iOS_SDK10PlayerItemV",
+        "mangledName": "$s17EEN_Video_iOS_SDK10PlayerItemV",
+        "moduleName": "EEN_Video_iOS_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Dewarping\/Dewarper.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 8,
+      "value": "\"EEN_Video_iOS_SDK.Dewarper\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Dewarping\/Dewarper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 818,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 840,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 818,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 840,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 795,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 818,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/Data\/AudioData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 840,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 526,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 626,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 741,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 787,
+      "length": 5,
+      "value": "120.0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 829,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 871,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/DewarpControlView.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 17,
+      "value": "\"EEN_Video_iOS_SDK.DewarpControlView\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLVSession.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLVSession.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 6,
+      "value": "\"Date\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLVSession.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 21,
+      "value": "\"x-ee-video-duration\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLVSession.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 38,
+      "value": "\"2969a7b0-e130-11e3-92fc-123a277611f2\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLVSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLVSession.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 10,
+      "value": "\"EEN_Video_iOS_SDK.FLVSession\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/JPEGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 809,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/MP4\/MP4Session.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 10,
+      "value": "\"EEN_Video_iOS_SDK.MP4Session\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Dewarping\/DewarperDevice.swift",
+      "kind": "Array",
+      "offset": 517,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "Dictionary",
+      "offset": 735,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 893,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 20,
+      "value": "\"yyyyMMddHHmmss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1027,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "Array",
+      "offset": 1862,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "Array",
+      "offset": 6870,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/StreamerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 15,
+      "value": "\"EEN_Video_iOS_SDK.StreamerManager\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2069,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/NetworkStream\/FLV\/FLV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5161,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/SDKLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/SDKLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/SDKLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/SDKLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/SDKLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/SDKLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1414,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1424,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/NALUnit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1457,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/Player.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 41,
+      "value": "\"com.eagleeyenetworks.player.displaylink\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Player\/Player.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 36,
+      "value": "\"com.eagleeyenetworks.player.dewarp\""
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Dewarping\/Composite.swift",
+      "kind": "Array",
+      "offset": 963,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/H264Decoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/H264Decoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2959,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/H264Decoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3211,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/projects\/vms-new-ios\/Modules\/EEN-Video-iOS-SDK\/EEN-Video-iOS-SDK\/Video Decoders\/H264Decoder.swift",
+      "kind": "Array",
+      "offset": 3256,
+      "length": 535,
+      "value": "[96000.0, 88200.0, 64000.0, 48000.0, 44100.0, 32000.0, 24000.0, 22050.0, 16000.0, 12000.0, 11025.0, 8000.0, 7350.0]"
+    }
+  ]
+}

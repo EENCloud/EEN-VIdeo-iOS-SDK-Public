@@ -1,0 +1,187 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EEN_Video_iOS_SDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import CoreGraphics
+import CoreMedia
+import CoreVideo
+@_exported import EEN_Video_iOS_SDK
+import Foundation
+import MetalKit
+import QuartzCore
+import SceneKit
+import Swift
+import UIKit
+import VideoToolbox
+import _Concurrency
+import _StringProcessing
+public struct DewarpImageResult {
+  public let esn: Swift.String
+  public let compositeId: Swift.String
+  public let image: UIKit.UIImage?
+}
+public typealias DewarperImageCallback = (([EEN_Video_iOS_SDK.DewarpImageResult]) -> Swift.Void)
+@objc @_hasMissingDesignatedInitializers public class Dewarper : ObjectiveC.NSObject {
+  @objc deinit
+}
+#warning("SDK RELEASE - Hide public functions from integrators")
+extension EEN_Video_iOS_SDK.Dewarper {
+  #warning("SDK RELEASE - Hide enqueueImage from release build for now ")
+}
+public protocol DewarpControlViewDelegate : AnyObject {
+  func dewarpLookAtDidChange(_ lookAt: EEN_Video_iOS_SDK.Point3D, paneIndex: Swift.Int)
+  func dewarpFieldOfViewDidChange(_ fov: Swift.Float, paneIndex: Swift.Int)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DewarpControlView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: EEN_Video_iOS_SDK.DewarpControlViewDelegate?
+  @objc deinit
+}
+#warning("SDK RELEASE - Hide public functions from integrators")
+public struct Point3D : Swift.Codable, Swift.Equatable {
+  public init(from decoder: Swift.Decoder) throws
+  public static func == (a: EEN_Video_iOS_SDK.Point3D, b: EEN_Video_iOS_SDK.Point3D) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class StreamerManager : ObjectiveC.NSObject {
+  #warning("SDK RELEASE - Hide public initializer when releasing")
+  #warning("SDK RELEASE - Hide internal functions when releasing")
+  @objc deinit
+}
+extension EEN_Video_iOS_SDK.StreamerManager : Foundation.URLSessionDataDelegate {
+  @objc dynamic open func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+}
+extension EEN_Video_iOS_SDK.StreamerManager : EEN_Video_iOS_SDK.RTSPSessionDelegate {
+  @objc dynamic public func onSessionReceivedSPS(_ spsData: Foundation.Data!, andPPS ppsData: Foundation.Data!, esn: Swift.String)
+  @objc dynamic public func onSessionReceivedVideoData(_ data: Foundation.Data!, dts: Swift.Double, date: Foundation.Date!, esn: Swift.String!)
+  @objc dynamic public func onSessionReceivedAudioData(_ data: Foundation.Data!, dts: Swift.Double, date: Foundation.Date!, esn: Swift.String!, audioCodec codec: EEN_Video_iOS_SDK.RTSPSessionAudioCodec)
+  @objc dynamic public func onSessionStateChanged(_ state: EEN_Video_iOS_SDK.RTSPSessionState, esn: Swift.String)
+  @objc dynamic public func onSessionFailedWithError(_ errorText: Swift.String!, esn: Swift.String)
+}
+#warning("SDK RELEASE - Hide StreamerManagerDelegate when releasing")
+public enum StreamOutput {
+  case CMSampleBuffer
+  case CGImage
+  case CVPixelBuffer
+  public static func == (a: EEN_Video_iOS_SDK.StreamOutput, b: EEN_Video_iOS_SDK.StreamOutput) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+#warning("SDK RELEASE - Hide StreamResult when releasing")
+public enum StreamUpdate {
+  case timestamp(timestamp: Foundation.TimeInterval)
+  case duration(duration: Swift.Double)
+  case progress(progress: Swift.Double)
+  case size(size: CoreFoundation.CGSize)
+}
+public enum StreamStatus : Swift.Equatable {
+  case initial
+  case connecting
+  case connected
+  case playing
+  case buffering
+  case paused
+  case disconnected(reason: EEN_Video_iOS_SDK.StreamEndReason)
+  public static func == (a: EEN_Video_iOS_SDK.StreamStatus, b: EEN_Video_iOS_SDK.StreamStatus) -> Swift.Bool
+}
+public protocol PlayerDelegate {
+  func playerDelegate(_ player: EEN_Video_iOS_SDK.Player, onStatusUpdate status: EEN_Video_iOS_SDK.StreamStatus, for esn: Swift.String)
+  func playerDelegate(_ player: EEN_Video_iOS_SDK.Player, onStreamUpdate update: EEN_Video_iOS_SDK.StreamUpdate, for esn: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class Player : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var delegate: EEN_Video_iOS_SDK.PlayerDelegate?
+  @_Concurrency.MainActor(unsafe) final public let bufferLayer: AVFoundation.AVSampleBufferDisplayLayer
+  @_Concurrency.MainActor(unsafe) public var audioMuted: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var audioVolume: Swift.Float {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) public func setDewarper(config: EEN_Video_iOS_SDK.DewarperDeviceConfig, compositeID: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSublayers(of layer: QuartzCore.CALayer)
+  @_Concurrency.MainActor(unsafe) public func enableDewarpControlView(isEnabled: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func getStreamStatus() -> EEN_Video_iOS_SDK.StreamStatus
+  @_Concurrency.MainActor(unsafe) public func play()
+  @_Concurrency.MainActor(unsafe) public func pause()
+  @_Concurrency.MainActor(unsafe) public func start(item: EEN_Video_iOS_SDK.PlayerItem, accessToken: Swift.String)
+  @objc deinit
+}
+extension EEN_Video_iOS_SDK.Player {
+  @_Concurrency.MainActor(unsafe) public func cleanUp()
+  @_Concurrency.MainActor(unsafe) public func adjustLayer()
+}
+extension EEN_Video_iOS_SDK.Player {
+  @_Concurrency.MainActor(unsafe) public func getSynchronizerTime() -> Swift.Float64
+  #warning("SDK RELEASE - Handle StreamerManagerDelegate access control")
+}
+extension EEN_Video_iOS_SDK.Player {
+  @_Concurrency.MainActor(unsafe) public func dewarperDidPresent(timestamp: CoreMedia.CMTime, timebase: CoreMedia.CMTimebase)
+}
+extension EEN_Video_iOS_SDK.Player : EEN_Video_iOS_SDK.DewarpControlViewDelegate {
+  @_Concurrency.MainActor(unsafe) public func dewarpLookAtDidChange(_ lookAt: EEN_Video_iOS_SDK.Point3D, paneIndex: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func dewarpFieldOfViewDidChange(_ fov: Swift.Float, paneIndex: Swift.Int)
+}
+public struct Composite : Swift.Codable, Swift.Equatable {
+  #warning("SDK RELEASE - Internal properties for integrators")
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public static func == (a: EEN_Video_iOS_SDK.Composite, b: EEN_Video_iOS_SDK.Composite) -> Swift.Bool
+}
+#warning("SDK RELEASE - This is not needed for integrators")
+public struct DewarperDeviceConfig : Swift.Equatable {
+  public static func == (lhs: EEN_Video_iOS_SDK.DewarperDeviceConfig, rhs: EEN_Video_iOS_SDK.DewarperDeviceConfig) -> Swift.Bool
+  public init?(from config: [Swift.String : Any])
+}
+public enum StreamError : Swift.Error {
+  case suppliedObjectIsInvalid(Swift.String?)
+  case notAuthenticated(Swift.String?)
+  case noPermission(Swift.String?)
+  case resourceNotFound(Swift.String?)
+  case internalError(Swift.String?)
+  case unknownError
+  public var defaultMessage: Swift.String {
+    get
+  }
+}
+public enum StreamEndReason : Swift.Error, Swift.Equatable {
+  public static func == (lhs: EEN_Video_iOS_SDK.StreamEndReason, rhs: EEN_Video_iOS_SDK.StreamEndReason) -> Swift.Bool
+  case closed
+  case streamError(EEN_Video_iOS_SDK.StreamError)
+  case error(Swift.Error)
+}
+public struct DewarpPane : Swift.Codable, Swift.Equatable {
+  #warning("SDK RELEASE - Internal properties for integrators")
+  public init(from decoder: Swift.Decoder) throws
+  public static func == (a: EEN_Video_iOS_SDK.DewarpPane, b: EEN_Video_iOS_SDK.DewarpPane) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+}
+#warning("SDK RELEASE - DewarpPane functions not needed for integrators")
+public struct PlayerItem {
+  public enum StreamingType {
+    #warning("SDK RELEASE - Remove Local RTSP from streaming types")
+    case flv
+    case rtsp
+    public func type() -> Swift.String
+    public static func == (a: EEN_Video_iOS_SDK.PlayerItem.StreamingType, b: EEN_Video_iOS_SDK.PlayerItem.StreamingType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var isLiveItem: Swift.Bool {
+    get
+  }
+  public init(url: Foundation.URL, esn: Swift.String, startDate: Foundation.Date = .init(), endDate: Foundation.Date? = nil, streamingType: EEN_Video_iOS_SDK.PlayerItem.StreamingType)
+  #warning("SDK RELEASE - Use default CMSampleBuffer when releasing.")
+}
+extension EEN_Video_iOS_SDK.StreamOutput : Swift.Equatable {}
+extension EEN_Video_iOS_SDK.StreamOutput : Swift.Hashable {}
+extension EEN_Video_iOS_SDK.PlayerItem.StreamingType : Swift.Equatable {}
+extension EEN_Video_iOS_SDK.PlayerItem.StreamingType : Swift.Hashable {}

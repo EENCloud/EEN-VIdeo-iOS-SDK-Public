@@ -1,0 +1,11 @@
+framework module EEN_Video_iOS_SDK {
+  umbrella header "EEN_Video_iOS_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EEN_Video_iOS_SDK.Swift {
+  header "EEN_Video_iOS_SDK-Swift.h"
+  requires objc
+}
