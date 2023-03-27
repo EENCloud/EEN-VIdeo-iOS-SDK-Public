@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source = {
-  	:http => 'https://github.com/EENCloud/EEN-Video-iOS-SDK-Public/blob/master/EEN_Video_iOS_SDK.zip?raw=true'
+  	:http => 'https://github.com/EENCloud/EEN-Video-iOS-SDK-Public/blob/main/EEN_Video_iOS_SDK.zip?raw=true'
   }
   s.vendored_frameworks = 'EEN_Video_iOS_SDK.xcframework'
 end
